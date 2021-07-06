@@ -6,6 +6,6 @@ Instructions:
 4. Navigate to <code>localhost:4200</code> in your internet browser
 5. Use login credentials provided below
 
-Login credentials:
-<b>Username: n@g.com</b>
+Login credentials:</br>
+<b>Username: n@g.com</b><br/>
 <b>Password: password</b>
