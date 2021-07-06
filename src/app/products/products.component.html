@@ -1,0 +1,13 @@
+<div class="row mt-5">
+  <div class="col-md-4 mb-3" *ngFor="let product of products | async">
+    <div class="card text-center">
+      <img class="card-img-top" src="https://gmedia.playstation.com/is/image/SIEPDC/ps4-pro-console-02-en-26oct18?$facebook$" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{product.title}}</h5>
+        <p class="card-text">{{product.short_description}}</p>
+        <button class="btn btn-primary float-left" (click)="openProductModal(product.id, product.title, product.short_description, product.description)">Edit Product</button>
+        <button class="btn btn-danger float-right" (click)="removeProduct(product.id)">Remove Product</button>
+      </div>
+    </div>
+  </div>
+</div>
